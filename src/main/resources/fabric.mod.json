@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "entitycrammingdropxp",
+  "version": "${version}",
+  "name": "entitycrammingdropxp",
+  "description": "entitycrammingdropxp",
+  "authors": ["Original author"],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/entitycrammingdropxp/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.itu0327.entitycrammingdropxp.EntityCrammingDropXP"
+    ]
+  },
+  "mixins": [
+    "entitycrammingdropxp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "java": ">=17"
+  }
+}
